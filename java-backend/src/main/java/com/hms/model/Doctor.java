@@ -1,11 +1,14 @@
 package com.hms.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "doctor")
@@ -50,6 +53,10 @@ public class Doctor {
 
     @NotNull
     private LocalTime endTime; // Default availability end
+
+    @OneToMany(mappedBy = "doctor", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @JsonManagedReference
+    private List<DoctorAvailabilitySlot> availabilitySlots = new ArrayList<>();
 
     public enum Specialization {
         OPHTHALMOLOGY, PAEDIATRICS, GYNAECOLOGY
@@ -146,5 +153,16 @@ public class Doctor {
 
     public void setEndTime(LocalTime endTime) {
         this.endTime = endTime;
+    }
+
+    public List<DoctorAvailabilitySlot> getAvailabilitySlots() {
+        return availabilitySlots;
+    }
+
+    public void setAvailabilitySlots(List<DoctorAvailabilitySlot> availabilitySlots) {
+        this.availabilitySlots.clear();
+        if (availabilitySlots != null) {
+            this.availabilitySlots.addAll(availabilitySlots);
+        }
     }
 }

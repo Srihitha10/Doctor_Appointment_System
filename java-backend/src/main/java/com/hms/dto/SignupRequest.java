@@ -1,5 +1,7 @@
 package com.hms.dto;
 
+import java.util.List;
+
 public class SignupRequest {
     private String role;
     private String username;
@@ -11,8 +13,19 @@ public class SignupRequest {
     private String mode;
     private String startTime;
     private String endTime;
+    private List<AvailabilitySlotRequest> availabilitySlots;
     private String hospitalName;
     private String hospitalAddress;
+
+    public static class AvailabilitySlotRequest {
+        private String startTime;
+        private String endTime;
+
+        public String getStartTime() { return startTime; }
+        public void setStartTime(String startTime) { this.startTime = startTime; }
+        public String getEndTime() { return endTime; }
+        public void setEndTime(String endTime) { this.endTime = endTime; }
+    }
 
     // Getters and Setters
     public String getRole() { return role; }
@@ -35,6 +48,8 @@ public class SignupRequest {
     public void setStartTime(String startTime) { this.startTime = startTime; }
     public String getEndTime() { return endTime; }
     public void setEndTime(String endTime) { this.endTime = endTime; }
+    public List<AvailabilitySlotRequest> getAvailabilitySlots() { return availabilitySlots; }
+    public void setAvailabilitySlots(List<AvailabilitySlotRequest> availabilitySlots) { this.availabilitySlots = availabilitySlots; }
     public String getHospitalName() { return hospitalName; }
     public void setHospitalName(String hospitalName) { this.hospitalName = hospitalName; }
     public String getHospitalAddress() { return hospitalAddress; }

@@ -6,10 +6,15 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.Collection;
 import java.util.List;
 
 @Repository
 public interface DoctorRepository extends JpaRepository<Doctor, Long> {
+
+    java.util.Optional<Doctor> findByUserId(Long userId);
+
+    List<Doctor> findByIdIn(Collection<Long> ids);
 
     List<Doctor> findByMode(Doctor.Mode mode);
 

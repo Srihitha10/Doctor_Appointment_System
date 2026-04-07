@@ -3,10 +3,12 @@ com\hms\service\AppointmentService.class
 com\hms\model\Doctor.class
 com\hms\controller\DoctorController.class
 com\hms\repository\DoctorRepository.class
+com\hms\dto\SignupRequest$AvailabilitySlotRequest.class
 com\hms\config\SecurityConfig.class
 com\hms\model\Patient.class
 com\hms\model\DoctorUnavailability.class
 com\hms\repository\AppointmentRepository.class
+com\hms\dto\DoctorSlotAvailabilityResponse.class
 com\hms\repository\UserRepository.class
 com\hms\controller\AppointmentController.class
 com\hms\model\MedicalRecord.class
@@ -15,6 +17,8 @@ com\hms\service\DoctorService.class
 com\hms\controller\AuthController.class
 com\hms\model\Appointment.class
 com\hms\model\User.class
+com\hms\dto\DoctorSlotUpdateRequest$SlotItem.class
+com\hms\dto\DoctorSlotUpdateRequest.class
 com\hms\repository\MedicalRecordRepository.class
 com\hms\model\Doctor$Specialization.class
 com\hms\dto\LoginRequest.class
@@ -22,3 +26,4 @@ com\hms\model\Doctor$Mode.class
 com\hms\repository\DoctorUnavailabilityRepository.class
 com\hms\controller\DoctorUnavailabilityController.class
 com\hms\HmsBackendApplication.class
+com\hms\model\DoctorAvailabilitySlot.class

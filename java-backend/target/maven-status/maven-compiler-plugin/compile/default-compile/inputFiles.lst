@@ -1,22 +1,25 @@
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\controller\DoctorController.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\config\SecurityConfig.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\repository\UserRepository.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\service\AppointmentService.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\repository\AppointmentRepository.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\controller\AppointmentController.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\model\Patient.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\model\User.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\repository\MedicalRecordRepository.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\model\Doctor.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\controller\AuthController.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\model\Appointment.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\service\DoctorService.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\model\DoctorUnavailability.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\repository\DoctorRepository.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\model\MedicalRecord.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\dto\SignupRequest.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\dto\LoginRequest.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\repository\PatientRepository.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\controller\DoctorUnavailabilityController.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\HmsBackendApplication.java
-D:\Python Django Development\HMS\HMSJava\java-backend\src\main\java\com\hms\repository\DoctorUnavailabilityRepository.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\service\AppointmentService.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\repository\MedicalRecordRepository.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\controller\AppointmentController.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\dto\LoginRequest.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\controller\AuthController.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\model\DoctorAvailabilitySlot.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\repository\AppointmentRepository.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\service\DoctorService.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\dto\DoctorSlotUpdateRequest.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\model\MedicalRecord.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\repository\DoctorRepository.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\dto\DoctorSlotAvailabilityResponse.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\HmsBackendApplication.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\model\Patient.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\repository\UserRepository.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\controller\DoctorController.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\controller\DoctorUnavailabilityController.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\dto\SignupRequest.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\repository\DoctorUnavailabilityRepository.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\model\Appointment.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\model\DoctorUnavailability.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\repository\PatientRepository.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\config\SecurityConfig.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\model\Doctor.java
+C:\Users\Srihitha\Doctor_Appointment_System\java-backend\src\main\java\com\hms\model\User.java
